@@ -1,4 +1,18 @@
 {
   "name": "themis",
-  "bin": "0.0.1"
+  "version": "0.0.1",
+  "description": "A tool to define an Open API spec as a javascript object.",
+  "main": "index.ts",
+  "repository": "git@github.com:Efuye/themis.git",
+  "author": "The_C1oud <dullkingsman@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^15.3.1",
+    "prettier": "^2.3.1"
+  }
 }
