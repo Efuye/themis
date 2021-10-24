@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "sourceMap": true,
+  "ts-node": {
+    "files": true,
+    "compilerOptions": {
+    }
+  },
+  "compilerOptions": {
+    "rootDir": ".",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}
